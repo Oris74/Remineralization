@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9060E1228C9036300BB74DA /* Remineralization_RecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E1128C9036300BB74DA /* Remineralization_RecipeApp.swift */; };
+		D9060E1428C9036300BB74DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E1328C9036300BB74DA /* ContentView.swift */; };
+		D9060E1628C9036500BB74DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9060E1528C9036500BB74DA /* Assets.xcassets */; };
+		D9060E1928C9036500BB74DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9060E1828C9036500BB74DA /* Preview Assets.xcassets */; };
+		D9060E2328C9036500BB74DA /* Remineralization_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E2228C9036500BB74DA /* Remineralization_RecipeTests.swift */; };
+		D9060E2D28C9036500BB74DA /* Remineralization_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E2C28C9036500BB74DA /* Remineralization_RecipeUITests.swift */; };
+		D9060E2F28C9036500BB74DA /* Remineralization_RecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E2E28C9036500BB74DA /* Remineralization_RecipeUITestsLaunchTests.swift */; };
+		D9060E3F28C9042800BB74DA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E3E28C9042800BB74DA /* Element.swift */; };
+		D9060E4128C9047900BB74DA /* Ion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E4028C9047900BB74DA /* Ion.swift */; };
+		D9060E4328C9048B00BB74DA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E4228C9048B00BB74DA /* Recipe.swift */; };
+		D9060E4528C9119B00BB74DA /* Elements.json in Resources */ = {isa = PBXBuildFile; fileRef = D9060E4428C9119B00BB74DA /* Elements.json */; };
+		D9060E4728C9132C00BB74DA /* ManageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9060E4628C9132C00BB74DA /* ManageElement.swift */; };
+		D918C13C28C93142008E87C8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918C13B28C93142008E87C8 /* NetworkService.swift */; };
+		D918C13E28C9318D008E87C8 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918C13D28C9318D008E87C8 /* NetworkProtocol.swift */; };
+		D918C14028C931EE008E87C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918C13F28C931EE008E87C8 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9060E1F28C9036500BB74DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9060E0628C9036300BB74DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9060E0D28C9036300BB74DA;
+			remoteInfo = "Remineralization Recipe";
+		};
+		D9060E2928C9036500BB74DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9060E0628C9036300BB74DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9060E0D28C9036300BB74DA;
+			remoteInfo = "Remineralization Recipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9060E0E28C9036300BB74DA /* Remineralization Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remineralization Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9060E1128C9036300BB74DA /* Remineralization_RecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remineralization_RecipeApp.swift; sourceTree = "<group>"; };
+		D9060E1328C9036300BB74DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9060E1528C9036500BB74DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9060E1828C9036500BB74DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9060E1E28C9036500BB74DA /* Remineralization RecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remineralization RecipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9060E2228C9036500BB74DA /* Remineralization_RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remineralization_RecipeTests.swift; sourceTree = "<group>"; };
+		D9060E2828C9036500BB74DA /* Remineralization RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remineralization RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9060E2C28C9036500BB74DA /* Remineralization_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remineralization_RecipeUITests.swift; sourceTree = "<group>"; };
+		D9060E2E28C9036500BB74DA /* Remineralization_RecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remineralization_RecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9060E3E28C9042800BB74DA /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		D9060E4028C9047900BB74DA /* Ion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ion.swift; sourceTree = "<group>"; };
+		D9060E4228C9048B00BB74DA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		D9060E4428C9119B00BB74DA /* Elements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Elements.json; sourceTree = "<group>"; };
+		D9060E4628C9132C00BB74DA /* ManageElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageElement.swift; sourceTree = "<group>"; };
+		D918C13B28C93142008E87C8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D918C13D28C9318D008E87C8 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		D918C13F28C931EE008E87C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9060E0B28C9036300BB74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E1B28C9036500BB74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E2528C9036500BB74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9060E0528C9036300BB74DA = {
+			isa = PBXGroup;
+			children = (
+				D9060E1028C9036300BB74DA /* Remineralization Recipe */,
+				D9060E2128C9036500BB74DA /* Remineralization RecipeTests */,
+				D9060E2B28C9036500BB74DA /* Remineralization RecipeUITests */,
+				D9060E0F28C9036300BB74DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9060E0F28C9036300BB74DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9060E0E28C9036300BB74DA /* Remineralization Recipe.app */,
+				D9060E1E28C9036500BB74DA /* Remineralization RecipeTests.xctest */,
+				D9060E2828C9036500BB74DA /* Remineralization RecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9060E1028C9036300BB74DA /* Remineralization Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				D9060E3C28C9039800BB74DA /* View */,
+				D9060E3B28C9038A00BB74DA /* Model */,
+				D9060E3D28C903A200BB74DA /* Controller */,
+				D9060E1128C9036300BB74DA /* Remineralization_RecipeApp.swift */,
+				D9060E1328C9036300BB74DA /* ContentView.swift */,
+				D9060E1528C9036500BB74DA /* Assets.xcassets */,
+				D9060E1728C9036500BB74DA /* Preview Content */,
+			);
+			path = "Remineralization Recipe";
+			sourceTree = "<group>";
+		};
+		D9060E1728C9036500BB74DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9060E1828C9036500BB74DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9060E2128C9036500BB74DA /* Remineralization RecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9060E2228C9036500BB74DA /* Remineralization_RecipeTests.swift */,
+			);
+			path = "Remineralization RecipeTests";
+			sourceTree = "<group>";
+		};
+		D9060E2B28C9036500BB74DA /* Remineralization RecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9060E2C28C9036500BB74DA /* Remineralization_RecipeUITests.swift */,
+				D9060E2E28C9036500BB74DA /* Remineralization_RecipeUITestsLaunchTests.swift */,
+			);
+			path = "Remineralization RecipeUITests";
+			sourceTree = "<group>";
+		};
+		D9060E3B28C9038A00BB74DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D918C13928C93101008E87C8 /* Utilities */,
+				D9060E3E28C9042800BB74DA /* Element.swift */,
+				D9060E4028C9047900BB74DA /* Ion.swift */,
+				D9060E4228C9048B00BB74DA /* Recipe.swift */,
+				D9060E4428C9119B00BB74DA /* Elements.json */,
+				D9060E4628C9132C00BB74DA /* ManageElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9060E3C28C9039800BB74DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9060E3D28C903A200BB74DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D918C13928C93101008E87C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D918C13A28C93119008E87C8 /* Network */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D918C13A28C93119008E87C8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D918C13B28C93142008E87C8 /* NetworkService.swift */,
+				D918C13D28C9318D008E87C8 /* NetworkProtocol.swift */,
+				D918C13F28C931EE008E87C8 /* Utilities.swift */,
+			);
+			name = Network;
+			path = "../New Group/Network";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9060E0D28C9036300BB74DA /* Remineralization Recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9060E3228C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization Recipe" */;
+			buildPhases = (
+				D9060E0A28C9036300BB74DA /* Sources */,
+				D9060E0B28C9036300BB74DA /* Frameworks */,
+				D9060E0C28C9036300BB74DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remineralization Recipe";
+			productName = "Remineralization Recipe";
+			productReference = D9060E0E28C9036300BB74DA /* Remineralization Recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9060E1D28C9036500BB74DA /* Remineralization RecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9060E3528C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization RecipeTests" */;
+			buildPhases = (
+				D9060E1A28C9036500BB74DA /* Sources */,
+				D9060E1B28C9036500BB74DA /* Frameworks */,
+				D9060E1C28C9036500BB74DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9060E2028C9036500BB74DA /* PBXTargetDependency */,
+			);
+			name = "Remineralization RecipeTests";
+			productName = "Remineralization RecipeTests";
+			productReference = D9060E1E28C9036500BB74DA /* Remineralization RecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9060E2728C9036500BB74DA /* Remineralization RecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9060E3828C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization RecipeUITests" */;
+			buildPhases = (
+				D9060E2428C9036500BB74DA /* Sources */,
+				D9060E2528C9036500BB74DA /* Frameworks */,
+				D9060E2628C9036500BB74DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9060E2A28C9036500BB74DA /* PBXTargetDependency */,
+			);
+			name = "Remineralization RecipeUITests";
+			productName = "Remineralization RecipeUITests";
+			productReference = D9060E2828C9036500BB74DA /* Remineralization RecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9060E0628C9036300BB74DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D9060E0D28C9036300BB74DA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D9060E1D28C9036500BB74DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9060E0D28C9036300BB74DA;
+					};
+					D9060E2728C9036500BB74DA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D9060E0D28C9036300BB74DA;
+					};
+				};
+			};
+			buildConfigurationList = D9060E0928C9036300BB74DA /* Build configuration list for PBXProject "Remineralization Recipe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9060E0528C9036300BB74DA;
+			productRefGroup = D9060E0F28C9036300BB74DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9060E0D28C9036300BB74DA /* Remineralization Recipe */,
+				D9060E1D28C9036500BB74DA /* Remineralization RecipeTests */,
+				D9060E2728C9036500BB74DA /* Remineralization RecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9060E0C28C9036300BB74DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9060E1928C9036500BB74DA /* Preview Assets.xcassets in Resources */,
+				D9060E4528C9119B00BB74DA /* Elements.json in Resources */,
+				D9060E1628C9036500BB74DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E1C28C9036500BB74DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E2628C9036500BB74DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9060E0A28C9036300BB74DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9060E1428C9036300BB74DA /* ContentView.swift in Sources */,
+				D9060E1228C9036300BB74DA /* Remineralization_RecipeApp.swift in Sources */,
+				D9060E4128C9047900BB74DA /* Ion.swift in Sources */,
+				D9060E3F28C9042800BB74DA /* Element.swift in Sources */,
+				D918C13E28C9318D008E87C8 /* NetworkProtocol.swift in Sources */,
+				D9060E4328C9048B00BB74DA /* Recipe.swift in Sources */,
+				D918C14028C931EE008E87C8 /* Utilities.swift in Sources */,
+				D9060E4728C9132C00BB74DA /* ManageElement.swift in Sources */,
+				D918C13C28C93142008E87C8 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E1A28C9036500BB74DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9060E2328C9036500BB74DA /* Remineralization_RecipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9060E2428C9036500BB74DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9060E2D28C9036500BB74DA /* Remineralization_RecipeUITests.swift in Sources */,
+				D9060E2F28C9036500BB74DA /* Remineralization_RecipeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9060E2028C9036500BB74DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9060E0D28C9036300BB74DA /* Remineralization Recipe */;
+			targetProxy = D9060E1F28C9036500BB74DA /* PBXContainerItemProxy */;
+		};
+		D9060E2A28C9036500BB74DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9060E0D28C9036300BB74DA /* Remineralization Recipe */;
+			targetProxy = D9060E2928C9036500BB74DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9060E3028C9036500BB74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9060E3128C9036500BB74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9060E3328C9036500BB74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remineralization Recipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9060E3428C9036500BB74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remineralization Recipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9060E3628C9036500BB74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remineralization Recipe.app/Remineralization Recipe";
+			};
+			name = Debug;
+		};
+		D9060E3728C9036500BB74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remineralization Recipe.app/Remineralization Recipe";
+			};
+			name = Release;
+		};
+		D9060E3928C9036500BB74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remineralization Recipe";
+			};
+			name = Debug;
+		};
+		D9060E3A28C9036500BB74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24V626T3JX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FR.DIGIT74.Remineralization-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remineralization Recipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9060E0928C9036300BB74DA /* Build configuration list for PBXProject "Remineralization Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9060E3028C9036500BB74DA /* Debug */,
+				D9060E3128C9036500BB74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9060E3228C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9060E3328C9036500BB74DA /* Debug */,
+				D9060E3428C9036500BB74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9060E3528C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization RecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9060E3628C9036500BB74DA /* Debug */,
+				D9060E3728C9036500BB74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9060E3828C9036500BB74DA /* Build configuration list for PBXNativeTarget "Remineralization RecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9060E3928C9036500BB74DA /* Debug */,
+				D9060E3A28C9036500BB74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9060E0628C9036300BB74DA /* Project object */;
+}
